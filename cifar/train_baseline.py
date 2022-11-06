@@ -86,7 +86,7 @@ if warm_up:
 else:
     scheduler_warmup = None
 
-#######数据
+#######datasets
 if CIFAR == 10:
     train_dataset = torchvision.datasets.CIFAR10(root=data_path + 'cifar10', train=True, transform=torchvision.transforms.Compose([
         torchvision.transforms.RandomCrop((32, 32), padding=4),
@@ -163,7 +163,7 @@ if __name__ == '__main__':
             scheduler_warmup.step()
         else:
             scheduler.step()
-        ###### 测试集评估
+        ######  Test set evaluation
         accuracy = test(lenet,test_data,data_nums=len(test_dataset))
         print("epoch:{} time:{:.0f}  loss_ce :{:.2f} train_acc:{:.4f} tets_acc:{:.4f} lr:{} eta:{:.2f}".format(i + 1, time() - start_time, loss_all,accuracy1, accuracy,optimer.param_groups[0]['lr'], (time() - start_time) * ( epoch - i-1 ) / 3600))
         if accuracy > best_acc:

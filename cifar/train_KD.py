@@ -53,7 +53,7 @@ teacher_model = '18'
 names = 'cnn_' + teacher_model + 'teach' + 'snn_' + models
 wandb.init(project="distil_snn", name=names, group="Ablation Experiment")
 
-##### 加载模型 ######
+##### loading model ######
 s , _ = func_dict[models]
 _ , t = func_dict[teacher_model]
 teacher = t(num_classes = CIFAR).cuda()
