@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="qhn@10.113.39.225:662" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="qhn@10.113.39.225:662">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/snn-KD" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="waiwang_yuan">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/snn-KD" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
