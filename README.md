@@ -2,7 +2,7 @@
 Our code is divided by dataset, and we upload our original records.
 
 
-Baseline performance of all ANN models (200epoch for CIFAR , 120epoch for ImageNet)
+Baseline performance of all ANN models 
  
  Model  | CIFAR10 | CIFAR100  | ImageNet  
   ---- | ----- | ------ | ------ 
@@ -13,7 +13,7 @@ Baseline performance of all ANN models (200epoch for CIFAR , 120epoch for ImageN
  ResNet-152  | 96.38 | 81.36 | 82.0
  ResNet-19  | 96.30 | 80.48 | ---
 
-Baseline performance of all SNN models
+Baseline performance of all SNN models (200epoch for CIFAR , 120epoch for ImageNet)
  
  Model  | CIFAR10 | CIFAR100  | ImageNet  
   ---- | ----- | ------ | ------ 
