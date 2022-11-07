@@ -2,7 +2,7 @@
 Our code is divided by dataset, and we upload our original records.
 
 
-Baseline performance of all ANN models
+Baseline performance of all ANN models (200epoch for CIFAR , 120epoch for ImageNet)
  
  Model  | CIFAR10 | CIFAR100  | ImageNet  
   ---- | ----- | ------ | ------ 
