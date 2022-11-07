@@ -23,6 +23,7 @@ Baseline performance of all SNN models
  ResNet-101  | 55.83 | 35.72 | ---
  ResNet-152  | 10.00 | 10.00 | ---
  ResNet-19  | 94.28 | 78.28 | ---
+ Sew18 ｜ --- ｜ --- ｜61.55
 
 How to set up the environment ?
 Our code is based on a specific version of spikingjelly
