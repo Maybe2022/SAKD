@@ -1,6 +1,29 @@
 # SAKD
 Our code is divided by dataset, and we upload our original records.
 
+
+Baseline performance of all ANN models
+ 
+ Model  | CIFAR10 | CIFAR100  | ImageNet  
+  ---- | ----- | ------ | ------ 
+ ResNet-18  | 95.65 | 78.35 | 71.5 
+ ResNet-34  | 95.69 | 79.30 | 76.4
+ ResNet-50  | 95.85 | 80.49 | 80.4
+ ResNet-101  | 95.92 | 80.83 | 81.5
+ ResNet-152  | 96.38 | 81.36 | 82.0
+ ResNet-19  | 96.30 | 80.48 | ---
+
+Baseline performance of all SNN models
+ 
+ Model  | CIFAR10 | CIFAR100  | ImageNet  
+  ---- | ----- | ------ | ------ 
+ ResNet-18  | 94.33 | 75.03 | 61.13
+ ResNet-34  | 93.50 | 71.72 | 64.40
+ ResNet-50  | 93.54 | 70.34 | 67.45
+ ResNet-101  | 55.83 | 35.72 | ---
+ ResNet-152  | 10.00 | 10.00 | ---
+ ResNet-19  | 94.28 | 78.28 | ---
+
 How to set up the environment ?
 Our code is based on a specific version of spikingjelly
 ```
