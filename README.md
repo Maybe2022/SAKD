@@ -30,7 +30,7 @@ Results of SAKD on ImageNet
 
  Model  | ResNet-18 | ResNet-34 | ResNet-50 | SEW-ResNet-18 | SEW-ResNet-34 | SEW-ResNet-50
   ---- | ----- | ------ | ------ | ------ | ------ | ------ 
-  acc | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log
+  acc | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/[log](https://github.com/Maybe2022/SAKD/blob/main/origin_logs/sew_SAKD_120epoch.log)
  
  
 
