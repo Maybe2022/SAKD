@@ -24,6 +24,15 @@ Baseline performance of all SNN models (200epoch for CIFAR , 120epoch for ImageN
  ResNet-152  | 10.00 | 10.00 | ---
  ResNet-19  | 94.28 | 78.28 | ---
  Sew18 | --- |--- |61.55
+ 
+
+Results of SAKD on ImageNet
+
+ Model  | ResNet-18 | ResNet-34 | ResNet-50 | SEW-ResNet-18 | SEW-ResNet-34 | SEW-ResNet-50
+  ---- | ----- | ------ | ------ | ------ | ------ | ------ 
+  acc | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log | xxx/weight/log
+ 
+ 
 
 How to set up the environment ?
 Our code is based on a specific version of spikingjelly
